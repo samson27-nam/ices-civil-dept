@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICES - Department of Civil Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="department.css"/>
+
+</head>
+<body class="bg-white">
+
+<!-- Header -->
+<header class="bg-[#1f1a50] text-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between py-4">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <div class="h-16 w-16 rounded-full bg-white flex items-center justify-center">
+                    <img src="mubasiceslogo.png" class="h-16 rounded-full" alt="logo"/>
+                </div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8 header-nav">
+                <a href="#" class="transition-colors">Home</a>
+                <a href="#" class="transition-colors">About</a>
+                <a href="#" class="text-[#fe7701]">Our Department</a>
+                <a href="#" class="transition-colors">Executives</a>
+                <a href="#" class="transition-colors">Innovations</a>
+                <a href="#" class="transition-colors">Register</a>
+                <a href="#" class="transition-colors">Contact</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobileMenuBtn" class="md:hidden p-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <nav id="mobileMenu" class="mobile-menu md:hidden">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#" class="active">Our Department</a>
+            <a href="#">Executives</a>
+            <a href="#">Innovations</a>
+            <a href="#">Register</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <!-- Page Title -->
+        <div class="text-center py-8">
+            <h1>Innovation in Civil Engineering Society</h1>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="bg-[#1f1a50] text-white py-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+        <h2 class="mb-6">Department of Civil Engineering</h2>
+        <p class="text-lg opacity-90 mb-8">
+            Empowering the next generation of civil engineers through innovation,
+            excellence, and practical knowledge. Our department is dedicated to
+            shaping the future of infrastructure and sustainable development.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-4 fade-in-up">
+                <div class="text-[#fe7701] text-3xl font-bold mb-1">300+</div>
+                <div class="text-sm">Students</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-4 fade-in-up" style="animation-delay: 0.1s">
+                <div class="text-[#fe7701] text-3xl font-bold mb-1">15+</div>
+                <div class="text-sm">Faculty Members</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-4 fade-in-up" style="animation-delay: 0.2s">
+                <div class="text-[#fe7701] text-3xl font-bold mb-1">20+</div>
+                <div class="text-sm">Research Projects</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Programs Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-[#1f1a50] mb-4">Our Programs</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Explore our comprehensive range of academic programs designed to build
+                expertise and foster innovation in civil engineering.
+            </p>
+        </div>
+
+        <div id="programsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Programs will be inserted here by JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- Research Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-[#1f1a50] mb-4">Research</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                The Department of Civil Engineering continues to advance innovation through impactful research addressing real-world challenges in infrastructure, sustainability, and technology
+            </p>
+        </div>
+
+        <!-- Major Research -->
+        <div id="researchGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <!-- Research topics will be inserted here by JavaScript -->
+        </div>
+
+        <!-- Statistics -->
+        <!--
+        <div class="bg-[#1f1a50] rounded-lg p-8">
+            <h3 class="text-center text-white mb-8">Department Highlights</h3>
+            <div id="statsGrid" class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                Stats will be inserted here by JavaScript
+            </div>
+        </div>
+        -->
+    </div>
+</section>
+
+<!-- Lecturers Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-[#1f1a50] mb-4">Meet Our Faculty</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Our distinguished faculty members bring decades of academic excellence,
+                industry experience, and research innovation to guide your educational journey.
+            </p>
+        </div>
+
+        <div id="lecturersGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Lecturers will be inserted here by JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#1f1a50] text-white py-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="mb-4">About ICES</h3>
+                <p class="text-white/80 text-sm">
+                    Innovation in Civil Engineering Society is dedicated to fostering
+                    excellence in civil engineering education and research.
+                </p>
+            </div>
+            <div>
+                <h3 class="mb-4">Quick Links</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="text-white/80 hover:text-[#fe7701] transition-colors">Home</a></li>
+                    <li><a href="#" class="text-white/80 hover:text-[#fe7701] transition-colors">About</a></li>
+                    <li><a href="#" class="text-white/80 hover:text-[#fe7701] transition-colors">Programs</a></li>
+                    <li><a href="#" class="text-white/80 hover:text-[#fe7701] transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="mb-4">Contact Us</h3>
+                <p class="text-white/80 text-sm">
+                    Department of Civil Engineering<br>
+                    Email: civilengineering@mubas.ac.mw<br>
+                    Phone: +265 999 372 851
+                </p>
+            </div>
+        </div>
+        <div class="border-t border-white/20 mt-8 pt-8 text-center text-sm text-white/60">
+            © <span id="currentYear"></span> Innovation in Civil Engineering Society. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+<script src="department.js"></script>
+</body>
+</html>
