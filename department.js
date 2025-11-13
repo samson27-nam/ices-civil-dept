@@ -176,7 +176,7 @@
         title: 'Associate Professor & Department Head',
         specialization: 'Structural Engineering',
         email: 'head-civil@mubas.ac.mw',
-        achievements: ['10+ years experience', 'Published 20+ papers'],
+        achievements: ['15+ years experience', 'Published 20+ papers'],
         image: 'Kafodya.jpg'
 
     },
@@ -193,7 +193,7 @@
         title: 'Lecturer',
         specialization: 'Transportation Engineering',
         email: 'wmzembe@mubas.ac.mw',
-        achievements: ['Society Academic Patron','Industry liaison'],
+        achievements: ['Society Academic Patron','Industry liaison', '10+ years experience'],
         image: 'mzembe.jpg'
     },
     {
@@ -201,7 +201,7 @@
         title: 'Senior Lecturer',
         specialization: 'Structural Engineering',
         email: 'pmbewe@mubas.ac.mw',
-        achievements: ['Former Department Head'],
+        achievements: ['Former Department Head', '20+ years experience'],
         image: 'mbewe.jpg'
     },
     ];
@@ -261,3 +261,4 @@
             `;
     lecturersGrid.innerHTML += lecturerCard;
 });
+
